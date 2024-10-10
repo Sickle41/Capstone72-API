@@ -1,0 +1,91 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "name": "Joe Schmoe",
+      "password": "1234",
+      "email": "joe@example.com"
+    },
+    {
+      "email": "christian41@gmail.com",
+      "fullName": "Christian Randle",
+      "password": "abcd",
+      "id": 2
+    },
+    {
+      "email": "briggs@gmail.com",
+      "fullName": "Jackie Briggs",
+      "password": "qaws",
+      "id": 3
+    }
+  ],
+  "PaintSchemes": [
+    {
+      "name": "Thor Base Coat",
+      "schemeImage": "https://deathwatchstudios.com/wp-content/uploads/2020/03/stage-1-thor-basecoating-1.jpg",
+      "description": "Thor Base Coat Guide",
+      "uploaderId": 1,
+      "systemId": 5,
+      "id": 1
+    },
+    {
+      "name": "Rohan Paint Scheme",
+      "schemeImage": "https://assets.paintpad.app/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcDlLIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--422dbaa1ce98cbf4db528647117c1f273a4fb4e0/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwQWxnQ2FRSllBam9RWVhWMGIxOXZjbWxsYm5SVSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e0cca43b55098456aafe190d4e2bcf52f3d67b3e/MiddleEarthRohanPaint-Nov22-RiderGuide7xm.jpg",
+      "description": "Rider of Rohan Paint Scheme",
+      "uploaderId": 1,
+      "systemId": 3,
+      "id": 2
+    },
+    {
+      "name": "Phoenix Painting Guide",
+      "schemeImage": "https://www.belloflostsouls.net/wp-content/uploads/2013/05/Snapshot-252882-2529.jpg",
+      "description": "How to paint a High Elf Phoenix",
+      "uploaderId": 3,
+      "systemId": 4,
+      "id": 3
+    }
+  ],
+  "Likes": [
+    {
+      "userId": 1,
+      "schemeId": 1,
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "schemeId": 1,
+      "id": 3
+    },
+    {
+      "userId": 3,
+      "schemeId": 3,
+      "id": 4
+    }
+  ],
+  "System": [
+    {
+      "id": 1,
+      "name": "Warhammer 40k"
+    },
+    {
+      "id": 2,
+      "name": "Age of Sigmar"
+    },
+    {
+      "id": 3,
+      "name": "Lord of the Rings"
+    },
+    {
+      "id": 4,
+      "name": "Warhammer Fantasy"
+    },
+    {
+      "id": 5,
+      "name": "Marvel Crisis Protocol"
+    },
+    {
+      "id": 6,
+      "name": "Star Wars Legion"
+    }
+  ]
+}
